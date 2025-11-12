@@ -14,7 +14,6 @@ It automates grade calculation, mark sheet uploads, and provides visual performa
 **TECH STACK**  
 
 Frontend: HTML,CSS
-
 Backend: Python  
 Database: SQLite  
 Libraries: Pandas, Matplotlib  
