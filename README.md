@@ -41,6 +41,9 @@ Libraries: Pandas, Matplotlib
    ```bash
    python main.py
    ```
+5.**NOTE**
+   Install wkhtmltopdf from https://wkhtmltopdf.org before running the project.
+   It is used to generate PDF grade reports directly from HTML mark sheets.
 
 **DATABASE TABLES**  
 - students – stores student profile and academic details  
