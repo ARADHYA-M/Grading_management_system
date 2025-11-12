@@ -12,6 +12,7 @@ It automates grade calculation, mark sheet uploads, and provides visual performa
 - Streamlined report generation improving analysis speed by 70%
 
 **TECH STACK**  
+
 Frontend: HTML,CSS 
 Backend: Python  
 Database: SQLite  
