@@ -1,7 +1,10 @@
 services:
   - type: web
-    name: Grading_management_system
+    name: fdp-project
     env: python
-    pythonVersion: 3.12
-    buildCommand: pip install --upgrade pip && pip install -r requirements.txt
+    plan: free
+    buildCommand: pip install -r requirements.txt
     startCommand: gunicorn main:app
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10.13
